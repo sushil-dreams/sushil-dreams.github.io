@@ -4,124 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
-    <style>
-      body {
-        background: #ffff0088;
-      }
-
-      .bim {
-        background: purple;
-        height: 100px;
-        width: 100px;
-      }
-      .g20 {
-        gap: 20px;
-      }
-
-      .flex {
-        display: flex;
-        min-height: 300px;
-      }
-
-      .flex-col {
-        display: flex;
-        flex-direction: column;
-      }
-
-      .green {
-        background: green;
-      }
-      .red {
-        background: red;
-      }
-      .blue {
-        background: blue;
-      }
-      .yellow {
-        background: yellow;
-      }
-      .w-50 {
-        width: 50%;
-      }
-      .w-25 {
-        width: 25%;
-      }
-      .w-100 {
-        width: 100%;
-      }
-    </style>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
-    <a href="about.html">Go to About</a>
+    <div class="pricing">
+      <div class="heading">
+        <div class="title"></div>
 
-    <h1>Flexbox design</h1>
-
-    <div class="flex flex-col">
-      <div class="flex">
-        <div class="red w-50">r3ed content</div>
-        <div class="green w-50">green content</div>
+        <div class="desc"></div>
       </div>
-
-      <div class="flex blue">blue content</div>
-
-      <div class="flex">
-        <div class="flex green w-25">green content</div>
-        <div class="flex yellow" style="flex: 1">yellow content</div>
-        <div class="flex red w-25">red content</div>
-      </div>
-    </div>
-
-    <!-- <div style="background: #f1f1f1; height: 300px">
-      <div
-        style="
-          display: flex;
-          flex-direction: column;
-          gap: 20px;
-          justify-content: center;
-          height: 100%;
-        "
-      >
-        <div style="height: 100px; width: 100px; background-color: red">a</div>
-
-        <div style="height: 100px; width: 100px; background-color: green">
-          b
+      <div class="price-list">
+        <div class="price-board">
+          <div class="overview"></div>
+          <div class="features"></div>
+          <div class="call-to-action"></div>
         </div>
-
-        <div style="height: 100px; width: 100px; background-color: blue">c</div>
-      </div>
-    </div> -->
-
-    <!-- <div
-      style="
-        background-color: red;
-        padding-top: 20px;
-        color: white;
-        margin: 40px;
-      "
-    >
-      Division A
-    </div>
-
-    <div
-      style="
-        background-color: BLUE;
-        padding: 20px;
-        color: white;
-        font-size: 42px;
-        font-weight: bold;
-        text-align: center;
-      "
-    >
-      Division B
-    </div>
-
-    <div class="bim" style="float: right"></div>
-    <div class="bim" style="background: green; clear: both">asd</div> -->
-
-    <div>
-      <div>
-        <div></div>
+        <div class="price-board">
+          <div class="overview"></div>
+          <div class="features"></div>
+          <div class="call-to-action"></div>
+        </div>
+        <div class="price-board">
+          <div class="overview"></div>
+          <div class="features"></div>
+          <div class="call-to-action"></div>
+        </div>
       </div>
     </div>
   </body>
