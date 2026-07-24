@@ -1,3 +1,23 @@
 body {
   background-color: yellow;
 }
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.price-board {
+  display: flex;
+  flex-direction: column;
+}
